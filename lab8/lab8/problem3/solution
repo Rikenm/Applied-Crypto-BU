@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This file will be run, hashed, and compared to the solution hash.  The output
+# of this file (to stdout) is the answer that will be matched for "correctness"
+echo $(python2 solution.py)
